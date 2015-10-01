@@ -52,7 +52,6 @@ body.active_admin {
       background-color: #ffffff;
       border: 1px solid $skinBorderWindowColor;
       border-bottom: 2px solid $skinBorderWindowColor;
-      @include rounded($skinBorderRadius);
     }
   }
   #header {
@@ -71,7 +70,6 @@ body.active_admin {
     }
     ul.tabs > li > a {
       color: #ffffff;
-      @include rounded($skinBorderRadius);
       padding: 6px 10px 6px 10px;
     }
     ul.tabs > li.current > a, ul.tabs > li:hover > a {
@@ -84,7 +82,6 @@ body.active_admin {
         }
         ul {
           background-color: $skinMainSecondColor;
-          @include rounded($skinBorderRadius);
           li > a {
             padding-left: 15px;
           }
@@ -135,7 +132,6 @@ body.active_admin {
         border: none;
         box-shadow: none;
         text-shadow: none;
-        @include rounded($skinBorderRadius);
         background-color: $skinMainSecondColor;
         border: none;
         color: #ffffff;
@@ -176,7 +172,6 @@ body.active_admin {
           border: none;
           box-shadow: none;
           background-color: $skinMainSecondColor;
-          @include rounded($skinBorderRadius);
           border: none;
           padding: 10px 20px;
           color: #ffffff;
@@ -211,7 +206,6 @@ body.active_admin {
     span.blank_slate {
       border: 2px solid lighten( $skinMainSecondColor, 30% );
       color: #8494a8;
-      @include rounded($skinBorderRadius);
     }
     div.table_tools {
       margin-bottom: 35px;
@@ -247,7 +241,6 @@ body.active_admin {
           border: none;
           box-shadow: none;
           background-color: $skinMainSecondColor;
-          @include rounded($skinBorderRadius);
           border: none;
           padding: 10px 20px;
           color: #ffffff;
@@ -286,7 +279,6 @@ body.active_admin {
         a {
           background-image: none;
           background-color: $skinMainSecondColor;
-          @include rounded($skinBorderRadius);
           border: none;
           padding: 10px 20px;
           color: #ffffff;
@@ -348,7 +340,6 @@ body.active_admin {
     background-color: #ffffff;
     border: 1px solid $skinBorderWindowColor;
     border-bottom: 2px solid $skinBorderWindowColor;
-    @include rounded($skinBorderRadius);
     th {
       background-image: none;
       border: none;
@@ -424,7 +415,6 @@ form input[type=submit], a.button, a:link.button, a:visited.button, fieldset.act
   box-shadow: none;
   text-shadow: none;
   background-color: $skinMainSecondColor;
-  @include rounded($skinBorderRadius);
   border: none;
   padding: 10px 20px;
   color: #ffffff;
@@ -438,7 +428,6 @@ form fieldset.buttons li.cancel a, form fieldset.actions li.cancel a, form.filte
   box-shadow: none;
   text-shadow: none;
   background-color: #ffffff;
-  @include rounded($skinBorderRadius);
   padding: 10px 20px;
   border-color: #E4E4E4;
   &:hover {
@@ -583,7 +572,6 @@ form fieldset.inputs {
     box-shadow: none;
     border: none;
     background-color: $skinBorderWindowColor;
-    @include rounded($skinBorderRadius);
     padding: 5px 10px;
     &:hover {
       background-image: none!important;
@@ -599,7 +587,6 @@ form fieldset.inputs {
     background-color: $skinMainSecondColor;
     border: none;
     padding: 5px 10px;
-    @include rounded($skinBorderRadius);
     cursor: pointer;
     &:hover {
       background-image: none!important;
@@ -612,7 +599,6 @@ body.logged_out #content_wrapper #active_admin_content {
   box-shadow: none;
   text-shadow: none;
   box-shadow: none;
-  @include rounded($skinBorderRadius);
 
   background-color: #ffffff;
   border: 1px solid $skinBorderWindowColor;
@@ -698,7 +684,6 @@ form fieldset > ol > li fieldset ol li {
           border: 1px solid #e6e9ee;
           background-color: #fdfefe;
           outline: none;
-          @include rounded($skinBorderRadius);
           width: 247px;
           &:focus {
             border-color: lighten( $skinMainSecondColor, 20% ) ;
@@ -715,7 +700,6 @@ form fieldset > ol > li fieldset ol li {
         box-shadow: none;
         text-shadow: none;
         box-shadow: none;
-        @include rounded($skinBorderRadius);
         background-color: $skinMainSecondColor;
         border: none;
         color: #ffffff;
@@ -732,7 +716,6 @@ form fieldset > ol > li fieldset ol li {
         text-shadow: none;
         box-shadow: none;
         background-color: #ffffff;
-        @include rounded($skinBorderRadius);
         padding: 10px 20px;
         border-color: #E4E4E4;
         &:hover {
@@ -764,8 +747,8 @@ input[type='radio'] {
     display:block;
     width:50%;
     height:50%;
-    margin: 20% auto;    
-    border-radius:50%;   
+    margin: 20% auto;
+    border-radius:50%;
   }
   &:checked:before{
     background: $skinMainSecondColor;
