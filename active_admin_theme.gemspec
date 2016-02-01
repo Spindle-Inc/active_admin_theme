@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'active_admin_theme/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "active_admin_theme"
+  spec.name          = "spdl_aa_theme"
   spec.version       = ActiveAdminTheme::VERSION
-  spec.authors       = ["Igor Fedoronchuk", "Alex Sikorskiy"]
-  spec.email         = ["igor.f@didww.com", "alex.s@didww.com"]
+  spec.authors       = ["Igor Fedoronchuk", "Alex Sikorskiy", "Justin Clark"]
+  spec.email         = ["igor.f@didww.com", "alex.s@didww.com", "jclark@spindle.com"]
   spec.summary       = %q{Flat design for ActiveAdmin}
   spec.description   = %q{Flat design for activeadmin gem }
   spec.homepage      = "https://github.com/didww/active_admin_theme"
