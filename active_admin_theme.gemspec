@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'active_admin_theme/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "spdl_aa_theme"
+  spec.name          = "active_admin_theme"
   spec.version       = ActiveAdminTheme::VERSION
   spec.authors       = ["Igor Fedoronchuk", "Alex Sikorskiy", "Justin Clark"]
   spec.email         = ["igor.f@didww.com", "alex.s@didww.com", "jclark@spindle.com"]
